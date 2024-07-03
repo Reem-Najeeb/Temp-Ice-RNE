@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-IceCeram-RNE</title>
+    <!-- my Logo --><link rel="shortcut icon" href="imgice/forAnimation2.png" type="image/x-icon"/>
+    <!-- File css--><link rel="stylesheet" href="css/style.css">
+    <!-- normalize and font awesom -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+    <!-- مكتبة الانميشن -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <!-- \***********************    Header  ***********************/-->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><i class="fa-solid fa-ice-cream"></i>Ice cream</a>
+            <div class="secConta">
+                <nav class="navbar">
+                    <a href="#home" class="active">home</a>
+                    <a href="#Flavors">Flavors</a>
+                    <a href="#products">products</a>
+                    <a href="#Gallery">Gallery</a>
+                    <a href="#Testimonial">Testimonial</a>
+                </nav>
+                <div class="icons">
+                    <i class="fas fa-bars" id="menu-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="landing">
+        <img class="mainAnimation" src="imgice/pinkPopap.png" alt="">
+        <div class="container">
+            <div class="Text">
+                <h1>Ice Cream website</h1>
+                <p> Welcome to this website! This is nothing but a simulated site that mimics real and actual websites. I hope you enjoy your visit to it. 
+                    I welcome any feedback from you that can enhance your experience.
+                </p>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="tex">
+                            <img class="opacity1" src="imgice/artice2.png" alt="">
+                        <h4>Enjoy</h4>
+                        </div>
+                        <img class="opacity0" src="imgice/artice2.png" alt="">
+                    </div>
+
+                    <div class="box">
+                        <div class="tex">
+                            
+                            <img class="opacity1" src="imgice/artice1.png" alt="">
+                        <h4>celebrate</h4>
+                        </div>
+                        <img class="opacity0" src="imgice/artice1.png" alt="">
+
+                    </div>
+
+                    <div class="box">
+                        <div class="tex">
+                            <img class="opacity1" src="imgice/artice3.png" alt="">
+                        <h4>savor</h4>
+                        </div>
+                        <img class="opacity0" src="imgice/artice3.png" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="tex">
+                            <img class="opacity1" src="imgice/artice4.png" alt="">
+                        <h4>delicious</h4>
+                        </div>
+                        <img class="opacity0" src="imgice/artice4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="image" id="image">
+                <img src="imgice/3Dicepink.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Flavors -->
+    <div class="Flavors" id="Flavors">
+        <div class="Text">
+            <h1>Flavors</h1>
+            <p>In the flavors section of ice cream, you can choose from a diverse and exciting range of flavors that cater to all tastes and preferences.</p>
+            <div class="images">
+                <img src="imgice/flavor2.png" alt="">
+                <img src="imgice/flavor3.png" alt="">
+                <img src="imgice/flavor4.png" alt="">
+                <img src="imgice/flavor1.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 8</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon1" class="fa-regular fa-heart " onclick="changeHearticon1('hearticon1', 'hearticon2');"></i>
+                        <i id= "hearticon2"  class="fa-solid fa-heart active" onclick="changeHearticon2('hearticon1', 'hearticon2');"></i>
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor1.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Hazelnut</h3>
+                    <div class="footF">
+                        <span class="price">0.51 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon1" class="fa-solid fa-plus " onclick="changeplusicon1('plusIcon1', 'plusIcon2');"></i>
+                            <i id= "plusIcon2" class="fas fa-check-circle fa-fw active" onclick="changeplusicon2('plusIcon1', 'plusIcon2');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 10</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon3" class="fa-regular fa-heart active" onclick="changeHearticon1('hearticon3', 'hearticon4');"></i>
+                        <i id= "hearticon4" class="fa-solid fa-heart"  onclick="changeHearticon2('hearticon3', 'hearticon4');"></i>
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor2.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Chocolate</h3>
+                    <div class="footF">
+                        <span class="price">0.40 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon3" class="fa-solid fa-plus active" onclick="changeplusicon1('plusIcon3', 'plusIcon4');"></i>
+                            <i id= "plusIcon4" class="fas fa-check-circle fa-fw" onclick="changeplusicon2('plusIcon3', 'plusIcon4');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 9</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon5" class="fa-regular fa-heart active" onclick="changeHearticon1('hearticon5', 'hearticon6');"></i>
+                        <i id= "hearticon6" class="fa-solid fa-heart"  onclick="changeHearticon2('hearticon5', 'hearticon6');"></i>
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor3.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Strawberry</h3>
+                    <div class="footF">
+                        <span class="price">0.25 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon5" class="fa-solid fa-plus active" onclick="changeplusicon1('plusIcon5', 'plusIcon6');"></i>
+                            <i id= "plusIcon6" class="fas fa-check-circle fa-fw" onclick="changeplusicon2('plusIcon5', 'plusIcon6');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 7</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon7" class="fa-regular fa-heart active" onclick="changeHearticon1('hearticon7', 'hearticon8');"></i>
+                            <i id= "hearticon8" class="fa-solid fa-heart"  onclick="changeHearticon2('hearticon7', 'hearticon8');"></i>
+                        
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor4.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Mango</h3>
+                    <div class="footF">
+                        <span class="price">0.24 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon7" class="fa-solid fa-plus active" onclick="changeplusicon1('plusIcon7', 'plusIcon8');"></i>
+                            <i id= "plusIcon8" class="fas fa-check-circle fa-fw" onclick="changeplusicon2('plusIcon7', 'plusIcon8');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 7</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon9" class="fa-regular fa-heart active" onclick="changeHearticon1('hearticon9', 'hearticon10');"></i>
+                        <i id= "hearticon10" class="fa-solid fa-heart"  onclick="changeHearticon2('hearticon9', 'hearticon10');"></i>
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor5.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Vanilla</h3>
+                    <div class="footF">
+                        <span class="price">0.10 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon9" class="fa-solid fa-plus active" onclick="changeplusicon1('plusIcon9', 'plusIcon10');"></i>
+                            <i id= "plusIcon10" class="fas fa-check-circle fa-fw" onclick="changeplusicon2('plusIcon9', 'plusIcon10');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="headF">
+                    <h4><i class="fa-solid fa-star"></i> 5</h4>
+                    <div class="hearticons">
+                        <i id= "hearticon11" class="fa-regular fa-heart active" onclick="changeHearticon1('hearticon11', 'hearticon12');"></i>
+                        <i id= "hearticon12" class="fa-solid fa-heart"  onclick="changeHearticon2('hearticon11', 'hearticon12');"></i>
+                    </div>
+                </div>
+                <div class="image"> <img src="imgice/flavor6.png" alt=""></div>
+                <div class="TextF">
+                    <h3>Banana</h3>
+                    <div class="footF">
+                        <span class="price">0.28 $</span>
+                        <div class= "plusicons">
+                            <i id= "plusIcon11" class="fa-solid fa-plus active" onclick="changeplusicon1('plusIcon11', 'plusIcon12');"></i>
+                            <i id= "plusIcon12" class="fas fa-check-circle fa-fw" onclick="changeplusicon2('plusIcon11', 'plusIcon12');"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="tic" src="imgice/tice.png" alt="">
+    </div>
+    <!-- TypeIce -->
+    <div class="TypeIce" id="products">
+        <img class="mainAnimation" src="imgice/pinkPopap.png" alt="">
+        <div class="animatuonImg">
+            <img src="imgice/forAnimation.png" alt="">
+        </div>
+        <div class="container">
+            <div class="First-section">
+                <h2>Main Text on Her</h2>
+                <p>With our types ice cream, you will enjoy a variety of unique flavors that range from traditional oud to pistachio, 
+                    chocolate, dried fruits, and more. We strive to provide an exciting and distinctive experience for ice cream lovers of all ages.</p>
+                <span class="btnPink">More</span>
+            </div>
+            <div class="Secon-section">
+                <div class="small-img">
+                    <img src="imgice/typeice1.jpg" data-index="0" class="active" alt="">
+                    <img src="imgice/typeice2.jpg" data-index="1"  alt="">
+                    <img src="imgice/typeice3.jpg" data-index="2"  alt="">
+                    <img src="imgice/typeice4.jpg" data-index="3"  alt="">
+                    <img src="imgice/typeice5.jpg" data-index="4"  alt="">
+                    <img src="imgice/typeice6.jpg" data-index="5"  alt="">
+                </div>
+                <div class="boxes">
+                    <div class="box active 1">
+                        <img src="imgice/typeice1.jpg" id="largimg" alt="">
+                        <div class="Text">
+                            <h2>Caramel Ice Cream</h2>
+                            <p>It combines the rich flavor with delicious caramel. It offers a delightful and balanced taste of sweetness and spices.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Caramel</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Pistachio</li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">1.3 $</span>
+                        </div>
+                    </div>
+                    <div class="box 2">
+                        <img src="imgice/typeice2.jpg" id="largimg1" alt="">
+                        <div class="Text">
+                            <h2>Strawberry Ice Cream</h2>
+                            <p>It blends the rich flavor with fresh and sweet strawberries. It provides a refreshing and fruity experience for oud and strawberry lovers.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Strawberry</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Vanilla</li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">1.7 $</span>
+                        </div>
+                    </div>
+                    <div class="box 3">
+                        <img src="imgice/typeice3.jpg" id="largimg2" alt="">
+                        <div class="Text">
+                            <h2>Almond Ice Cream</h2>
+                            <p>Combining the wonderful flavor with the deliciousness of roasted Almonds, this flavor creates the perfect blend for a unique ice cream experience.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Almond</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Vanilla</li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">2.3 $</span>
+                        </div>
+                    </div>
+                    <div class="box  4">
+                        <img src="imgice/typeice4.jpg" id="largimg3" alt="">
+                        <div class="Text">
+                            <h2>Mint Ice Cream</h2>
+                            <p>It blends the rich flavor with the refreshing taste of mint. It offers a refreshing and distinct experience with every bite.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Mint</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Chocolate </li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">2 $</span>
+                        </div>
+                    </div>
+                    <div class="box 5">
+                        <img src="imgice/typeice5.jpg" id="largimg4" alt="">
+                        <div class="Text">
+                            <h2>Almond and Chocolate Ice</h2>
+                            <p>Combining the wonderful flavor with the deliciousness of roasted Almonds and Chocolate, this flavor creates the perfect blend for a unique ice cream experience.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Almond</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Chocolate</li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">2.8 $</span>
+                        </div>
+                    </div>
+                    <div class="box 6">
+                        <img src="imgice/typeice6.jpg" id="largimg6" alt="">
+                        <div class="Text">
+                            <h2>Caramel and Pistachio Ice</h2>
+                            <p>It combines the rich flavor with delicious caramel and Pistachio. It offers a delightful and balanced taste of sweetness and spices.</p>
+                            <ul class="ingredi">
+                                <li><i class="fa-solid fa-ice-cream"></i>Caramel</li>
+                                <li><i class="fa-solid fa-ice-cream"></i>Pistachio </li>
+                            </ul>
+                            <ul class="icons">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li> <i class="fa-solid fa-bookmark"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <span class="price">2.4 $</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+    <div class="Gallery" id="Gallery">
+        <div class="animatuonImg">
+            <img src="imgice/forAnimation2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="Text">
+                <h1>Our Gallery</h1>
+                <p>Explore the phrase that resonates with you and embrace positive energy for this day.</p>
+                <div class="images">
+                    <img src="imgice/cocIc1.png" alt="">
+                    <img src="imgice/cocIc2.png" alt="">
+                    <img src="imgice/cocIc1.png" alt="">
+                    <img src="imgice/cocIc2.png" alt="">
+                </div>
+            </div>
+            <div class="pop2">
+                <div class="image">
+                    <img src="imgice/gallery.jpg" alt="" onclick="showPopup('pop-up-1', event)">
+                    <img src="imgice/gallery1.jpg" alt="" onclick="showPopup('pop-up-2', event)">
+                    <img src="imgice/gallery2.jpg" alt="" onclick="showPopup('pop-up-3', event)">
+                    <img src="imgice/gallery3.jpg" alt="" onclick="showPopup('pop-up-4', event)">
+                    <img src="imgice/gallery4.jpg" alt="" onclick="showPopup('pop-up-5', event)">
+                    <img src="imgice/gallery5.jpg" alt="" onclick="showPopup('pop-up-6', event)">
+                    <img src="imgice/gallery6.jpg" alt="" onclick="showPopup('pop-up-7', event)">
+                    <img src="imgice/gallery7.jpg" alt="" onclick="showPopup('pop-up-8', event)">
+                    <img src="imgice/gallery8.jpg" alt="" onclick="showPopup('pop-up-9', event)">
+                    <img src="imgice/gallery9.jpg" alt="" onclick="showPopup('pop-up-10', event)">
+                    <img src="imgice/gallery10.jpg" alt="" onclick="showPopup('pop-up-11', event)">
+                    <img src="imgice/gallery11.jpg" alt="" onclick="showPopup('pop-up-12', event)">
+                    <img src="imgice/gallery12.jpg" alt="" onclick="showPopup('pop-up-13', event)">
+                    <img src="imgice/gallery13.jpg" alt="" onclick="showPopup('pop-up-14', event)">
+                    <img src="imgice/gallery14.jpg" alt="" onclick="showPopup('pop-up-15', event)">
+                    <img src="imgice/gallery15.jpg" alt="" onclick="showPopup('pop-up-16', event)">
+                    <img src="imgice/gallery16.jpg" alt="" onclick="showPopup('pop-up-17', event)">
+                    <img src="imgice/gallery17.jpg" alt="" onclick="showPopup('pop-up-18', event)">
+
+                </div>
+                
+                <div class="popup-container" id="pop-up-1" onclick="hidePopup('pop-up-1')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery.jpg" alt="">
+                        <p class="Ppink">Did you know that the radiance you carry within illuminates everything around you?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+                
+                <div class="popup-container" id="pop-up-2" onclick="hidePopup('pop-up-2')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery1.jpg" alt="">
+                        <p class="Pblue" >Did you know that your way of interacting with others inspires them and makes them feel comfortable?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-3" onclick="hidePopup('pop-up-3')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery2.jpg" alt="">
+                        <p class="Ppink">Did you know that your unique perspective and insights bring a fresh and valuable viewpoint to any discussion?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-4" onclick="hidePopup('pop-up-4')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery3.jpg" alt="">
+                        <p class="Pblue" >Did you know that your intelligence and wisdom make you a source of guidance and inspiration?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-5" onclick="hidePopup('pop-up-5')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery4.jpg" alt="">
+                        <p class="Ppink">Did you know that your positive attitude is contagious, uplifting the spirits of those around you?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-6" onclick="hidePopup('pop-up-6')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery5.jpg" alt="">
+                        <p class="Ppink">Did you know that your presence alone can bring a sense of calm and serenity to any situation?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-7" onclick="hidePopup('pop-up-7')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery6.jpg" alt="">
+                        <p class="Pblue" >Did you know that your friendship is a precious gift that brings joy and warmth to my life?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-8" onclick="hidePopup('pop-up-8')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery7.jpg" alt="">
+                        <p class="Ppink">Did you know that your creativity and imagination inspire those around you to think outside the box?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-9" onclick="hidePopup('pop-up-9')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery8.jpg" alt="">
+                        <p class="Ppink">Did you know that your words of encouragement can ignite a spark of motivation in others?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-10" onclick="hidePopup('pop-up-10')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery9.jpg" alt="">
+                        <p class="Ppink">Did you know that your smile has the power to brighten even the gloomiest of days?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-11" onclick="hidePopup('pop-up-11')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery10.jpg" alt="">
+                        <p class="Pblue" >Did you know that your presence in this world gives it a unique and beautiful touch that cannot be replaced?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-12" onclick="hidePopup('pop-up-12')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery11.jpg" alt="">
+                        <p class="Ppink">Did you know that your positive energy spreads and influences the environment around you?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-13" onclick="hidePopup('pop-up-13')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery12.jpg" alt="">
+                        <p class="Ppink">Did you know that your humility and kindness make others feel appreciated and loved?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-14" onclick="hidePopup('pop-up-14')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery13.jpg" alt="">
+                        <p class="Pblue" >Did you know that you have the ability to make a positive difference in the lives of those around you?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-15" onclick="hidePopup('pop-up-15')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery14.jpg" alt="">
+                        <p class="Pblue" >Did you know that your approach to challenges reflects your inner strength and resilience?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-16" onclick="hidePopup('pop-up-16')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery15.jpg" alt="">
+                        <p class="Ppink">Did you know that your ambition and determination inspire others to achieve their goals?</p>
+                        <button class="btnPink">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-17" onclick="hidePopup('pop-up-17')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery16.jpg" alt="">
+                        <p class="Pblue" >Did you know that your thoughts and opinions have the power to change the world around you?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+                <div class="popup-container" id="pop-up-18" onclick="hidePopup('pop-up-18')">
+                    <div class="popup-content">
+                        <img src="imgice/gallery17.jpg" alt="">
+                        <p class="Pblue" >Did you know that you have a unique ability to make people feel cared for and respected?</p>
+                        <button class="btnBlue">Yes, I Know</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="animatuonImg2">
+            <img src="imgice/forAnimation.png" alt="">
+        </div>
+    </div>
+    <!-- Testimonial -->
+    <div class="Testimonial" id="Testimonial">
+        <div class="container">
+            <div class="First-section">
+                <h2>Our exceptional heroes</h2>
+                <p>We are delighted to share with you some opinions from our exceptional heroes.</p>
+                <span class="btnPink">Let's get started</span>
+            </div>
+            <div class="Secon-section">
+                <div class="cards">
+                    <div class="card active 1">
+                        <div class="image">
+                            <img src="imgice/child-sarah.jpg" alt="">
+                            <div class="Text">
+                                <h3>Sarah, 8 years old.</h3>
+                                <div class="iconsStart">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>"I love ice cream so much! It's delicious and cold, and I can try many different flavors."</p>
+                    </div>
+
+                    <div class="card 2">
+                        <div class="image">
+                            <img src="imgice/child-michael.jpg" alt="">
+                            <div class="Text">
+                                <h3>Michael, 10 years old.</h3>
+                                <div class="iconsStart">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>"When I eat ice cream, I feel happiness and joy. I think ice cream is the best dessert in the world!"</p>
+                    </div>
+
+                    <div class="card 3">
+                        <div class="image">
+                            <img src="imgice/child-laila.jpg" alt="">
+                            <div class="Text">
+                                <h3>Laila, 7 years old.</h3>
+                                <div class="iconsStart">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>"I love having ice cream with my friends in the summer. It's a great way to cool down and enjoy together."</p>
+                    </div>
+
+                    <div class="card 4">
+                        <div class="image">
+                            <img src="imgice/child-jack.jpg" alt="">
+                            <div class="Text">
+                                <h3>jack, 6 years old.</h3>
+                                <div class="iconsStart">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>"When I eat ice cream, I feel refreshed. It gives me extra energy to play and enjoy the day."</p>
+                    </div>
+
+                    <div class="card 5">
+                        <div class="image">
+                            <img src="imgice/child-Alexander.jpg" alt="">
+                            <div class="Text">
+                                <h3>Alexander, 9 years old.</h3>
+                                <div class="iconsStart">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>"I think ice cream can have many different colors and flavors. It's like delicious art!"</p>
+                    </div>
+
+                </div>
+                <div class="small-img">
+                    <img src="imgice/child-sarah.jpg"  data-index="0" class="active" alt="">
+                    <img src="imgice/child-michael.jpg" data-index="1" alt="">
+                    <img src="imgice/child-laila.jpg" data-index="2" alt="">
+                    <img src="imgice/child-jack.jpg" data-index="3" alt="">
+                    <img src="imgice/child-Alexander.jpg" data-index="4" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <img src="imgice/gallery1.jpg" alt=""> -->
+        <div class="container">
+            <h1>All Copyright© ice-Reem.N.E</h1>
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- \******* END *******/ -->
+    <script src="js/main.js"></script>
+</body>
+</html>
